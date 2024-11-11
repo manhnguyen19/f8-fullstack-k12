@@ -138,7 +138,7 @@ header li a {
   height: 30px;
 }
 
-.intro {
+/* .intro {
   margin: 100px;
 }
 .intro p {
@@ -189,4 +189,38 @@ header li a {
   &:hover {
     transform: scale(1.2);
   }
+} */
+#teachers > p {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#teachers h2 {
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.teachers {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.teachers img {
+  width: 295px;
+  height: 350px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.teacher {
+  background-color: white;
+  border-radius: 16px;
+}
+
+.teacher .content {
+  padding: 0 20px;
 }

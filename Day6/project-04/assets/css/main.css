@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header nav {
+  width: 208px;
+}
+
+.header nav ul a {
+  padding: 12px 0 12px 0;
+  color: #000000;
+  &:hover {
+    color: #ad5727;
+  }
+}
+
+.media__img {
+  margin-top: 32px;
+  width: 100%;
+}
+
+.about-top {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-top p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #bb7e52;
+}
+
+.about-top h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3a3a3a;
+}
+
+.about-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 70px;
+  margin-bottom: 96px;
+}
+
+.article {
+  width: 448px;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article:nth-child(even) {
+  flex-direction: column-reverse;
+}
+
+.article-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-content h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #bb7e52;
+}
+
+.article-content p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3a3a3a;
+}
+
+.footer-content {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer-content input {
+  padding: 10px;
+}
+
+.footer-content button {
+  padding: 10px;
+  background-color: #3a3a3a;
+  color: white;
+}
